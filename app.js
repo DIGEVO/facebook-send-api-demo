@@ -24,5 +24,6 @@ var bot = new builder.UniversalBot(connector);
 bot.set('storage', tableStorage);
 
 bot.dialog('/', function (session) {
-	session.send(`${JSON.stringify(session.message)}`);
+	//session.send(`${JSON.stringify(session.message)}`);
+	session.send(`pid: ${session.message.sourceEvent.sender.id}`);
 });

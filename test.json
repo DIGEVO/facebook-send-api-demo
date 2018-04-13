@@ -1,0 +1,45 @@
+{
+	"type": "message",
+	"timestamp": "2018-04-13T18:38:47.287Z",
+	"text": "asd",
+	"sourceEvent": {
+		"sender": {
+			"id": "1807159449294662"
+		},
+		"recipient": {
+			"id": "1685982241422480"
+		},
+		"timestamp": 1523644727287,
+		"message": {
+			"mid": "mid.$cAAX9ZDjQbqJo8ZLH91iwE1_XnI-2",
+			"seq": 368469,
+			"text": "asd",
+			"is_echo": false
+		}
+	},
+	"attachments": [],
+	"entities": [],
+	"address": {
+		"id": "mid.$cAAX9ZDjQbqJo8ZLH91iwE1_XnI-2",
+		"channelId": "facebook",
+		"user": {
+			"id": "1807159449294662",
+			"name": "Rigoberto Salgado Reyes"
+		},
+		"conversation": {
+			"isGroup": false,
+			"id": "1807159449294662-1685982241422480"
+		},
+		"bot": {
+			"id": "1685982241422480",
+			"name": "facebook-send-api"
+		},
+		"serviceUrl": "https://facebook.botframework.com"
+	},
+	"source": "facebook",
+	"agent": "botbuilder",
+	"user": {
+		"id": "1807159449294662",
+		"name": "Rigoberto Salgado Reyes"
+	}
+}
